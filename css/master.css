@@ -1,0 +1,111 @@
+/* tags */
+body{
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+
+}
+h1{
+  font-family: Big Shoulders Display;
+  padding: 15% 0 ;
+}
+
+p{
+  font-family: Lexend Deca;
+  padding: 0 3% 35% 0;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+/* background design */
+.d-a{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 0 5px 0;
+}
+
+.d-b{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.d-c{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 5px 5px 0;
+}
+/* container content */
+.All-con{
+  margin: 10% auto;
+  width: 70%;
+
+}
+
+.division{
+  padding: 5%;
+
+}
+
+/* .b-c{
+  border-radius: 15%;
+  font-family: Lexend Deca;
+  font-size: 16px;
+  background-color: white;
+} */
+
+.b-c {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Lexend Deca;
+  font-size: 16px;
+  background: #fff;
+  padding: 10px 28px 10px 28px;
+  text-decoration: none;
+  border:none;
+}
+
+.b-c:hover {
+  background-color: transparent;
+  color: white;
+  border: white solid 2px;
+
+}
+
+.bt-a{
+  color: hsl(31, 77%, 52%);
+}
+
+.bt-b{
+  color: hsl(184, 100%, 22%);
+}
+
+.bt-c{
+  color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 590px){
+
+  h1{
+    font-family: Big Shoulders Display;
+    padding: 15% 0 10%;
+  }
+
+p{
+  padding: 0 3% 6% 0;
+}
+
+.All-con{
+  margin: 30% auto;
+  width: 90%;
+
+}
+  .division{
+    padding: 15% 17px 15% 47px;
+  }
+
+  .d-a{
+    border-radius: 5px 5px 0 0;
+  }
+
+  .d-c{
+    border-radius: 0 0 5px 5px;
+  }
+
+}
